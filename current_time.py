@@ -1,3 +1,5 @@
+import time
+
 from flask import Flask, make_response
 import datetime
 
@@ -12,3 +14,5 @@ def main_view():
     # return make_response(f"{year}.{month}.{day}", 200)
 
 app.run()
+
+print(time.strftime('%Y.%m.%d'))
