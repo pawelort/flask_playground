@@ -16,3 +16,5 @@ def main_view():
 app.run()
 
 print(time.strftime('%Y.%m.%d'))
+
+print("continue development on main branch")
